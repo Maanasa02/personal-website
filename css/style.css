@@ -11,7 +11,7 @@
   --prose-width: 720px;    /* ~65–72ch comfortable reading column */
   --radius: 4px;
   --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
-  --font-serif: "Fraunces", "Georgia", "Times New Roman", serif;
+  --font-serif: "Noto Serif", "Georgia", "Times New Roman", serif;
 }
 
 * {
