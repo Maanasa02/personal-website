@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>San Francisco's Homeless Response — Maanasa Sivashankar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -46,62 +49,78 @@
       </div>
       <div class="overview-item">
         <h2 class="overview-label">Solution</h2>
-        <p class="overview-body">I changed the focus from a data integration problem to redesigning accountability and led the work in four parts — a shared plan for change across departments, a reusable legal framework for sharing data, combined data based on a Shared Priority List, and a field tool we eventually stopped using when the basic parts worked well enough on their own.</p>
+        <p class="overview-body">I shifted the brief from a data integration problem to redesigning accountability. The work ran in four parts: a shared theory of change across departments, a reusable legal framework for cross-departmental data sharing, an integrated dataset surfaced through the Shared Priority List, and field tools that helped staff act on it.</p>
       </div>
       <div class="overview-item">
         <h2 class="overview-label">Outcome</h2>
-        <p class="overview-body">The operational backbone of citywide reform: A four-month prototype showed promising results for two-thirds of San Francisco's 15 most vulnerable clients getting into housing, shelter, treatment, or case management — with no deaths and no overdoses. ASTRID is now the main system behind Mayor Lurie's Neighborhood Street Teams model, expanding across more than 7 departments.</p>
+        <p class="overview-body">Two-thirds of the 15-client pilot cohort &mdash; selected as the highest-acuity individuals on the Shared Priority List &mdash; moved into housing, shelter, treatment, or case management within four months, with zero deaths and zero overdoses. ASTRID is now the operational backbone of Mayor Lurie's Neighborhood Street Teams model, integrating data across all seven city departments and running multiple iterations of the Shared Priority List beyond the initial pilot cohort.</p>
       </div>
+    </section>
+
+    <figure class="figure-penske figure-project-hero">
+      <img src="ASTRID.jpg" alt="ASTRID field workshop in session &mdash; Maanasa at a wall of sticky notes labeled SHELTER LENGTH OF STAY PROJECT, leading a participatory session with shelter users seated around the table." />
+      <figcaption>Field workshop with shelter users on what keeps people experiencing homelessness in shelters versus on the streets.</figcaption>
+    </figure>
+
+    <section class="my-role">
+      <h3>My role</h3>
+      <p>Solo designer on a four-person team &mdash; with a data scientist, a product manager, and a project lead. I led the service design and strategic direction across all four work streams. I designed and facilitated the Theory of Change workshops and authored the cross-departmental goal that came out of them. I built the Shared Priority List's coordination approach with department stakeholders. I seeded the legal framework's initial draft; the data lead and the City Attorney's office carried it from there. With AI tools, I built the first iteration of the field tool &mdash; good enough to run prototypes and test in the field.</p>
     </section>
 
     <article class="project-content">
 
       <h2>The problem</h2>
-      <p>Seven city departments &mdash; ranging from Public Health to Human Services &mdash; all worked with people experiencing homelessness, yet each operated in isolation. There was no shared definition of a client, and no one took full responsibility for guiding individuals from first contact through the several eligibility checks and resource matches to care or housing. While the brief described this as a data integration issue, the real challenge was the absence of a unified, cross-departmental view of the client, their needs and resource matches.</p>
+      <p>The brief described this as a data integration problem: seven departments, seven systems, no shared view of a client. But after a few weeks of ride-alongs and care-coordination meetings, the real failure showed up somewhere else. Breakdowns happened in the handoffs between departments. Nobody owned the client across the path.</p>
 
-      <p>Stakeholders spanned every level: from the Mayor's Office of Innovation and department chiefs, to outreach workers and paramedics on the front lines. Core partners included Public Health, Fire, Emergency Management, and Homelessness and Supportive Housing, later joined by HSA, Police, Public Works, and the Medical Examiner in ASTRID 2.0. Funding came from Bloomberg Philanthropies and Johns Hopkins University. Ultimately, the work focused on serving about 16,000 unhoused San Franciscans, with special focus on the 191 people that we identified as the most vulnerable individuals.</p>
+      <blockquote class="project-callout">Departments were failing at the spaces between them.</blockquote>
 
-      <p>Scale was ambitious: the pilot integrated 125,000 street encounters across four departments, with ASTRID 2.0 expanding to seven departments and over 120 users.</p>
+      <p>Seven city departments touch people experiencing homelessness across their journey through city services. ASTRID's first phase focused on the four departments closest to the operational gap &mdash; DPH, Fire, DEM, and HSH. ASTRID 2.0 now integrates data across all seven departments (adding Police, Public Works, and HSA).</p>
 
-      <p><strong>Timeline.</strong> 2023 &ndash; Present.</p>
+      <p>San Francisco serves roughly 16,000 unhoused individuals across its city departments each year. Within that population, a smaller group of high-utilizers drives a disproportionate share of emergency-services demand &mdash; a pattern consistent with national homelessness data, where roughly 10% of the unhoused population accounts for half of all service encounters. The Shared Priority List identifies the 191 highest-acuity clients citywide: the individuals for whom uncoordinated care has been most costly and least effective.</p>
 
-      <figure class="needs-image">
-        <div class="needs-image-placeholder">
-          <span class="needs-image-label">Image needed</span>
-          <span class="needs-image-desc">Cross-departmental swimlane diagram &mdash; DPH, HSH, Fire, DEM nodes connected by colored arrows to referral paths (HEART, SCRT) and outcome columns (Inputs / Activities / Outputs / Referral path).</span>
-        </div>
-        <figcaption>Mapping how a single client moved across departments &mdash; and where handoffs broke down. Each department logged its own outputs in its own system; no one owned the client across the path.</figcaption>
+      <figure>
+        <img src="projects-04.png" alt="Street team fragmentation across four departments — Department of Emergency Management (HSOC, HEART), Department of Homelessness and Supportive Housing (HOT), Department of Public Health (POET, OCC/BN, OCC-SCRT Triage), and Fire Department (SCRT, SORT) — each running its own outreach and response teams with overlapping mandates and no shared view of the client." />
+        <figcaption>Eight street response teams across four departments, each owning a slice of the same client&apos;s journey. No single team owned the path through.</figcaption>
       </figure>
 
       <h2>Methods used</h2>
 
-      <h3>Mixed Method research</h3>
-      <p>We used a mix of field research methods, engaging leaders and frontline staff from DPH, Fire, DEM, and HSH. Through interviews, ride-alongs, and direct observation of care coordination meetings, we uncovered that the real breakdowns happened during handoffs between departments &mdash; not within them. This insight became the foundation for reframing the problem.</p>
+      <h3>Mixed-method research</h3>
+      <p>30+ ride-alongs across DPH (Department of Public Health), Fire, DEM (Department of Emergency Management), and HSH (Homelessness and Supportive Housing), plus 45+ interviews with field staff and leadership, surfaced the same pattern over and over. Handoffs between departments were where clients got lost. This is the insight that reframed the brief.</p>
 
-      <h3>Theory of Change Workshops</h3>
-      <p>We brought leaders from DPH, Fire, DEM, and HSH together for six hands-on workshops, each grounded in real client stories. These sessions mapped out operations, established clear warm-handoff protocols, and assigned ownership for transitions that had previously been neglected. The result was San Francisco's first unified, cross-departmental goal for street response &mdash; a shared vision. These were tough stakeholders that needed to really buy into the idea of taking on more work than the regulation demanded of them.</p>
+      <h3>Theory of change workshops</h3>
+      <p>These were tough stakeholders who had to buy into taking on more work than regulation required of them. I designed and facilitated six workshops, each grounded in real client stories, with leaders from all four departments. The sessions produced the first unified street-response goal jointly held by DPH, Fire, DEM, and HSH. Prior coordination efforts had focused on housing placement (Coordinated Entry) or specific population segments; this was the first time a shared operational goal was defined across the street-response services themselves &mdash; with warm-handoff protocols and named ownership for the transitions nobody had been accountable for before.</p>
 
-      <figure class="needs-image">
-        <div class="needs-image-placeholder">
-          <span class="needs-image-label">Image needed</span>
-          <span class="needs-image-desc">Theory-of-change diagram &mdash; Inputs (911/311 calls, outreach encounters, ER &amp; EMS contacts, shelter requests) flowing through DPH/HSH/Fire/DEM departmental chips to outcomes (stable health, stable streets, stable housing) and the shared goal card.</span>
-        </div>
+      <figure>
+        <img src="civic-1-theory.png" alt="Theory-of-change diagram titled 'Four agencies, one client, three outcomes' — inputs from 911/311 calls, outreach encounters, ER and EMS contacts, and shelter requests flow through DPH, HSH, Fire, and DEM department boxes into a shared cross-departmental goal yielding stable health, stable streets, and stable housing." />
         <figcaption>The shared theory of change: a single top-line goal four departments could be jointly accountable for.</figcaption>
       </figure>
 
-      <h3>Service Blueprint</h3>
-      <p>Together with department directors, we created a service blueprint that traced the client journey across four departments. By highlighting where handoffs lacked ownership, the blueprint became a powerful tool &mdash; making the coordination problem tangible for city leaders and inspiring their commitment to redesign.</p>
+      <figure class="figure-process">
+        <img src="projects-07.png" alt="Workshop diagram titled 'Creating cross-departmental goals to align stakeholders' — colored DPH, HSH, Fire, and DEM blocks connected by referrals and warm handoffs to outcome boxes (stable health, off the streets, stable housing) and a final shared goal." />
+        <figcaption>The working diagram from the theory-of-change workshop that produced the framework above.</figcaption>
+      </figure>
 
-      <figure class="needs-image">
-        <div class="needs-image-placeholder">
-          <span class="needs-image-label">Image needed</span>
-          <span class="needs-image-desc">CRIT Team Summary diagram &mdash; HSOC and HOT intake sources flowing through Problem Solving (triage &amp; eligibility review, referral routing) into Treatment path, contrasting fragmented vs. integrated pathways.</span>
-        </div>
+      <h3>Service blueprint</h3>
+      <p>A service blueprint, built with department directors, traced the client journey across four departments and named every owner-less handoff. The map turned an abstract coordination problem into something city leaders could see in front of them.</p>
+
+      <figure>
+        <img src="civic-2-blueprint.png" alt="Service blueprint titled 'From fragmented to integrated treatment pathways' — side-by-side comparison of HSOC and HOT client flows, with broken handoffs in the BEFORE ASTRID state versus warm handoffs through problem solving, referral routing, and treatment path in the WITH ASTRID state." />
         <figcaption>Service blueprint showing how HSOC and HOT clients moved across fragmented vs. integrated treatment pathways.</figcaption>
       </figure>
 
-      <h3>Legal framework design through the city's Health Master Data Trust</h3>
-      <p>Partnered with the City Attorney's office and department legal teams to establish reusable legal scaffolding for cross-departmental data sharing under HIPAA and 42 CFR Part 2. Produced the legal authority that made integrated data lawful and made the framework reusable for subsequent MOI projects rather than single-use.</p>
+      <figure class="figure-penske">
+        <img src="astrid-workshop-blueprint.jpg" alt="Physical wall blueprint built up with colored sticky notes &mdash; mapping disruptive behavior and drug-overdose entry points through SORT, MEDICAL, BEHAVIORAL, and ASSESSMENT lanes into next-step actions (urgent care, 5150 hold, EMS6, transport to hospital) and follow-up outcomes by team (OCC, HOT, EMS6, POET)." />
+        <figcaption>Working service blueprint with department leads &mdash; mapping entry points, assessment, next steps, and follow-up across teams.</figcaption>
+      </figure>
+
+      <figure class="figure-process">
+        <img src="projects-06.png" alt="Four-panel mapping titled 'Matching specific outcomes by department' — each panel traces how inputs, activities, and outputs from DPH, HSH, Fire, and DEM connect through referrals (to SCRT, HEART) into department-specific outcome notes." />
+        <figcaption>Department-by-department view &mdash; how the same outputs map to different referral paths.</figcaption>
+      </figure>
+
+      <h3>Reusable legal scaffolding for data sharing</h3>
+      <p>Sharing client information between city departments runs into privacy laws &mdash; HIPAA, plus a federal rule that protects substance-use records. I drafted the first version of the legal agreement that would let departments share lawfully; the data lead and the City Attorney's office finalized it. The result is the Homeless Multidisciplinary Data Trust (HMDT) &mdash; a one-time legal setup that future city projects can reuse instead of starting from scratch.</p>
 
       <figure class="doc-excerpt">
         <div class="doc-excerpt-body">
@@ -111,36 +130,39 @@
         <figcaption>Excerpt: Citywide Policies and Procedures &mdash; the legal authority underpinning the HMDT and cross-departmental data sharing.</figcaption>
       </figure>
 
-      <h3>"Hackathon/reviewathon" as an introductory method to get staff to use the data</h3>
-      <p>Designed and led a two-week working session in September 2024, it brought data stewards from across San Francisco into the same room to iterate on the product. Produced not just a working integrated dataset, but stakeholder ownership across the city's data community; collaboration patterns continue to inform subsequent MOI engagements.</p>
+      <h3>Working sessions to get staff using the data</h3>
+      <p>A two-week working session in September 2024 brought data stewards from across San Francisco into one room to iterate on the integrated dataset live. It produced more than a dataset: it built a working relationship between data leads across departments that subsequent MOI engagements have continued to draw on.</p>
 
       <h3>The Shared Priority List</h3>
-      <p>The Shared Priority List was crafted to be more than just a data tool &mdash; it was designed to iterate on creating clear hand-offs and be actionable. It allowed four departments to agree on which clients needed coordinated care, sidestepping debates over whose clients mattered most. Structured care-planning fields were co-developed through observing real coordination meetings, resulting in an operational tool now central to the Lurie Administration's Neighborhood Street Teams.</p>
+      <p>The Shared Priority List is the working list of clients with the highest cross-departmental encounters and the most complex resource and health needs &mdash; people street teams have seen repeatedly for six months or longer with no visible change in their situation. The list let four departments agree on who needed coordinated care, which ended the recurring debate over whose clients mattered most. With names settled, the meeting could move to action.</p>
 
-      <figure class="needs-image">
-        <div class="needs-image-placeholder">
-          <span class="needs-image-label">Image needed</span>
-          <span class="needs-image-desc">Shared Priority List acuity view for sample client "Jane Doe" (SPL Acuity Score 16) &mdash; dot-graph of Unsheltered, SCRT contact, EMS contact, 5150 hold, non-fatal overdose, ER visit, and hospital stay counts, paired with the five structured coordination prompts (Next steps, Coordination, Required resources, Measuring success, Case review process).</span>
-        </div>
+      <p>Before the SPL, coordination meetings ran long and open-ended. I added a structured template &mdash; five prompts (next steps, coordination, required resources, measuring success, case review process) &mdash; so every weekly review covered the same ground for every client. The list also unlocked something that hadn't been possible before: custom-designed resource delivery for clients whose needs didn't fit standard pathways. The SPL is now central to the Lurie Administration's Neighborhood Street Teams.</p>
+
+      <figure>
+        <img src="civic-3-dashboard.png" alt="ASTRID Client View dashboard for sample client Jane Doe showing SPL Acuity Score of 16, an encounter counts strip (287 unsheltered days, 12 SCRT contacts, 23 EMS contacts, 4 5150 holds, 3 non-fatal overdoses, 18 ER visits, 5 hospital stays), and five coordination prompts: next steps, coordination, required resources, measuring success, and case review process." />
         <figcaption>Shared Priority List client view &mdash; structured prompts the weekly coordination meeting works through.</figcaption>
       </figure>
 
-      <figure class="needs-image">
-        <div class="needs-image-placeholder">
-          <span class="needs-image-label">Image needed</span>
-          <span class="needs-image-desc">Prototype "Rapid Access to Cross-Departmental Client Data" &mdash; client info cards (overview, housing data, client history, shelter &amp; ER history, points of contact, encounter history), three insight callouts (clear POCs, high mental health acuity flagged, EMS frequency), and color-coded data source legend (DEM / HSH / DPH / Fire).</span>
-        </div>
+      <figure class="figure-process">
+        <img src="projects-03.png" alt="Working session board titled 'Shared Priority List working session' — Jane Doe's acuity score card on the left, with five columns of sticky-note responses for Next steps for Jane Doe, Coordination, Required resources, Measuring success, and Case review process." />
+        <figcaption>The SPL working session that produced the structured prompts above &mdash; sticky-note responses from department leads working through one client together.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="civic-4-data-view.png" alt="ASTRID Client Data View for Jane Doe showing three insight banners (strength of clear points of contact, high mental health acuity, EMS frequency above threshold) above six data cards — overview, housing data, client history, shelter and ER history, points of contact, and encounter history — with a DEM, HSH, DPH, and Fire data-source legend." />
         <figcaption>Rapid Access to Cross-Departmental Client Data &mdash; the operational tool now central to the Lurie Administration's Neighborhood Street Teams.</figcaption>
       </figure>
 
-      <h3>Four-month pilot</h3>
-      <p>We launched a focused, four-month pilot with 15 clients to test whether all four layers of the intervention worked in practice. By tracking client outcomes and gathering feedback from field staff, we built a compelling evidence base: 2/3 of clients moved into housing, shelter, treatment, or case management, with no deaths or overdoses.</p>
+      <figure class="figure-penske">
+        <img src="rapid-access-draft.jpg" alt="Earlier draft wireframe for the Rapid Access to Cross-Departmental Client Data prototype &mdash; Jane Doe client card on the left, point-of-contact and encounter summary tables in the middle, with three callouts (clear points of contact, high mental health acuity, EMS frequency signaling high system utilization) and a color legend mapping data to DEM, HSH, Public Health, and Fire." />
+        <figcaption>Earlier draft of the Rapid Access prototype &mdash; the wireframe that informed the polished tool above.</figcaption>
+      </figure>
 
-      <figure class="needs-image">
-        <div class="needs-image-placeholder">
-          <span class="needs-image-label">Image needed</span>
-          <span class="needs-image-desc">Wireframes of the Response Team tool &mdash; Homepage, Client Details, Encounter Summary, and Notes from Outreach Workers screens.</span>
-        </div>
+      <h3>Four-month pilot</h3>
+      <p>A focused, four-month pilot tested whether all four layers worked in practice. The 15 clients were selected as the highest-acuity individuals on the SPL who had been engaged with services in the previous 90 days and consented to participate in the cross-departmental care coordination. Two-thirds moved into housing, shelter, treatment, or case management. Zero deaths. Zero overdoses.</p>
+
+      <figure>
+        <img src="projects-05.png" alt="Three mobile wireframe mockups for the Response Team tool — a Client Look Up form, a Client Details screen showing housing info and client behavioral history, and a second Client Details screen showing point of contact, encounter summary, and encounter history." />
         <figcaption>The Response Team's tool surfaced cross-departmental client data at the point of contact.</figcaption>
       </figure>
 
@@ -152,71 +174,71 @@
         <figcaption>The Follow-up Team's tool sped up locating clients and routing them through accurate next steps.</figcaption>
       </figure>
 
-      <figure class="needs-image">
-        <div class="needs-image-placeholder">
-          <span class="needs-image-label">Image needed</span>
-          <span class="needs-image-desc">Photograph of paper-prototype boards covered in red, blue, and yellow sticky notes from the outreach-worker review session (genuinely physical artifact &mdash; can't be reproduced in HTML).</span>
-        </div>
-        <figcaption>Paper prototype after a review session with six outreach workers across three departments.</figcaption>
+      <figure>
+        <img src="projects-08.png" alt="Two artifacts side by side from early prototype testing — left, an annotated wireframe printout marked up with red and yellow sticky notes; right, a paper prototype on a cork board built up with hand-written sticky notes from an outreach-worker review session." />
+        <figcaption>Prototyping and testing ideas early &mdash; annotated wireframes alongside a paper prototype, after a review session with outreach workers across three departments.</figcaption>
       </figure>
+
+      <aside class="ai-callout">
+        <span class="ai-callout-label">AI tooling</span>
+        <p>Building a field tool from scratch traditionally takes weeks; shipping fast working prototypes is exactly what AI tools are good at. I used AI to build the first iteration of the field tool within days &mdash; fast enough to put a real prototype in outreach workers' hands and let the use patterns disprove the original hypothesis. The pivot to a manager-driven dashboard came out of that rapid prototype cycle.</p>
+      </aside>
+
+      <h3>What I learned about who needs the data</h3>
+      <p>The first field tool put real-time client data in outreach workers' hands. Tool analytics showed outreach workers were checking the app before and after shifts, not during contacts &mdash; and that managers were the ones running the workflow, assigning priorities, and reviewing histories. The field-tool use case turned out to be a manager-tool use case. I pivoted to a manager-driven dashboard everyone can read, sized for where coordination actually happens.</p>
+
+      <blockquote class="project-callout">ASTRID is now the operational backbone of Mayor Lurie's Neighborhood Street Teams model &mdash; and was selected for the largest grant Bloomberg Philanthropies has ever awarded a city innovation office.</blockquote>
 
       <h2>Outcomes</h2>
 
-      <h3>Client outcomes</h3>
-      <p>Pilot, 15 most-vulnerable clients:</p>
-      <ul>
-        <li>2/3 moved to housing, shelter, treatment, or case management.</li>
-        <li>0 deaths, 0 overdoses.</li>
-        <li>50% reduction in hospital transports.</li>
-      </ul>
-
-      <h3>System outcomes</h3>
-      <ul>
-        <li>First cross-departmental by-name list in San Francisco history (125,000 encounters, ~16,000 unique individuals across 4 departments).</li>
-        <li>Operational cost reduced from $1,500/mo to $100/mo per client.</li>
-        <li>Run time from 1 hour to 10 minutes.</li>
-        <li>Daily updates instead of weekly.</li>
-      </ul>
+      <p>Across 15 of the highest-acuity clients in the pilot cohort, the integrated system did what seven disconnected ones could not.</p>
 
       <div class="stat-row">
         <div class="stat">
-          <span class="stat-num">125,000</span>
-          <span class="stat-label">street encounters integrated</span>
+          <span class="stat-num">2/3</span>
+          <span class="stat-label">into housing, shelter, treatment, or case management</span>
         </div>
         <div class="stat">
-          <span class="stat-num">~16,000</span>
-          <span class="stat-label">unique unhoused individuals</span>
+          <span class="stat-num">0 / 0</span>
+          <span class="stat-label">deaths and overdoses in the pilot cohort</span>
         </div>
         <div class="stat">
-          <span class="stat-num">4</span>
-          <span class="stat-label">departments &mdash; DPH, Fire, DEM, HSH</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">$1,500&rarr;$100</span>
-          <span class="stat-label">monthly operational cost</span>
+          <span class="stat-num">&minus;50%</span>
+          <span class="stat-label">hospital transports</span>
         </div>
       </div>
 
-      <h3>Strategic outcomes</h3>
+      <p>The 15-client cohort was a focused subset &mdash; small enough that frontline staff could give each client real attention, big enough that breakdowns would surface. Since then, several iterations of the Shared Priority List have addressed client situations beyond the initial pilot, and ASTRID 2.0 integrates data across all seven city departments.</p>
+
+      <p>What ASTRID specifically contributed: the cross-departmental coordination structures (warm-handoff protocols, named-owner assignments), the legal framework for data sharing through HMDT, the integrated dataset and Shared Priority List methodology, and the operational dashboards now in use across the participating departments. What the broader administration contributed: the political mandate of Mayor Lurie's March 2025 Executive Directive, the Neighborhood Street Teams operational model, and the resourcing that allowed the work to scale.</p>
+
+      <p>The pilot outcomes &mdash; the two-thirds-to-care figure, the zero deaths and overdoses &mdash; reflect coordinated care delivered through ASTRID's infrastructure. For context, San Francisco averages about 40 fatal and 200 non-fatal overdoses per month, concentrated among the same frequent drug users. Without ASTRID's infrastructure, those outcomes would not have been deliverable in the same form. Without the administration's broader commitment, ASTRID's infrastructure would not have been resourced to scale.</p>
+
       <ul>
-        <li>ASTRID became the operational backbone of the Lurie Administration's Neighborhood Street Teams model.</li>
+        <li>First cross-departmental by-name list in San Francisco history.</li>
+        <li>ASTRID became the operational backbone of the Lurie Administration's Neighborhood Street Teams.</li>
         <li>Cited as foundational in Mayor Lurie's March 2025 Executive Directive on homelessness.</li>
-        <li>Selected for a 3-year, $7M Bloomberg Philanthropies partnership &mdash; the largest grant Bloomberg has awarded to a city innovation office.</li>
+        <li>Selected for a 3-year, $7M Bloomberg Philanthropies partnership.</li>
+        <li>The HMDT legal framework, theory-of-change methodology, and working-session pattern are now reusable infrastructure for subsequent MOI engagements.</li>
       </ul>
 
-      <h3>Capability outcomes</h3>
-      <ul>
-        <li>HMDT legal framework, theory-of-change methodology, and "hackathon/reviewathon" pattern now reusable infrastructure for subsequent MOI engagements.</li>
-        <li>ASTRID 2.0 scaling to 7+ departments and 120+ users.</li>
-      </ul>
-
-      <figure class="needs-image">
-        <div class="needs-image-placeholder">
-          <span class="needs-image-label">Image needed</span>
-          <span class="needs-image-desc">Senior Women / Unsheltered Homelessness pilot client journey timeline, 2023&ndash;2025 &mdash; phase track (Crisis &rarr; Intervention &rarr; Trust &rarr; Shelter &rarr; Stability &rarr; Housing / Independence) with milestones, Gwen-level impact, and system-level impact rows across nine time points.</span>
-        </div>
-        <figcaption>Pilot client journey timeline showing how integrated coordination moved a most-vulnerable individual from crisis to stable housing.</figcaption>
+      <figure>
+        <img src="civic-5-timeline.png" alt="Two-year timeline of Gwen's journey from crisis to housing across six phases (Crisis, Intervention, Trust, Shelter, Stability, Housing/Independence) with Gwen-level milestones above the line and system-level milestones below." />
+        <figcaption>Gwen's path from crisis to housing &mdash; what coordinated care across four departments looks like for one person, over eighteen months.</figcaption>
       </figure>
+
+      <figure class="figure-process">
+        <img src="projects-01.png" alt="Detailed client-journey workshop artifact for Senior Women / Unsheltered Homelessness — yellow critical-milestone notes above a 2023–2025 phase track (Crisis, Intervention, Trust, Shelter, Stability, Housing/Independence) with Gwen-level impact and system-level impact rows for every milestone." />
+        <figcaption>The in-workshop client-journey map that informed the polished timeline above &mdash; one row for Gwen's experience, one row for what the system did at each step.</figcaption>
+      </figure>
+
+      <section class="project-context">
+        <h3>Context</h3>
+        <p><strong>Stakeholders.</strong> Mayor's Office of Innovation, department chiefs, outreach workers and paramedics. Core partners: Public Health, Fire, Emergency Management, Homelessness and Supportive Housing &mdash; later joined by HSA (Human Services Agency), Police, and Public Works in ASTRID 2.0.</p>
+        <p><strong>Funding.</strong> Bloomberg Philanthropies and Johns Hopkins University.</p>
+        <p><strong>Scale.</strong> 16,000 unhoused San Franciscans served; 191 highest-acuity individuals identified. The pilot integrated 125,000 street encounters across four departments; ASTRID 2.0 now integrates data across all seven departments and 120+ users.</p>
+        <p><strong>Timeline.</strong> 2023 &ndash; Present.</p>
+      </section>
     </article>
   </main>
 

@@ -9,7 +9,12 @@ screenshots/
 
 # Content source files (kept locally, not published)
 *.docx
+*.pptx
 Screenshot 2026-05-19 at *.png
+Screenshot 2026-05-20 at *.png
+
+# CSS / typography reference shots (not used in site)
+css reference *.png
 
 # Reference images (not used in site)
 123.png
