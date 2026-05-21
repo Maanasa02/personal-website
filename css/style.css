@@ -1268,6 +1268,24 @@ img {
   }
 }
 
+/* ---------- Side-by-side figure pair (each with its own cream background and caption) ---------- */
+.figures-side-by-side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 32px 0 48px;
+}
+
+.figures-side-by-side .figure-penske {
+  margin: 0;
+}
+
+@media (max-width: 860px) {
+  .figures-side-by-side {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ---------- Project-3: Penske figure wrapper (cream background) ---------- */
 .project-content .figure-penske {
   background: #faf6f0;
